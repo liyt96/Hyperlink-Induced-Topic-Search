@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+__author__ = "Yuetian Li"
+
 import copy
 import json
 from elasticsearch.helpers import bulk
