@@ -1,0 +1,7 @@
+# Config your localhost, port and index name here.
+es:
+  localhost: 'localhost'
+  port: 9200
+  index: 'cold_war'
+# Config your query here.
+query: 'cold war'
