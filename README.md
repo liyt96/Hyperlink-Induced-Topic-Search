@@ -24,9 +24,9 @@ The Root set and Base set I get form my web graph is [here](https://drive.google
 
 ### 3. Run HITS
 
-Run `python hits.py` to run the algorithm when you are ready with `inlinks.json`, `outlinks.json`, `docno_list.json`, `root_set.json` and `base_set.json` and put them under the `info` directory.
+Run `python hits.py` to run the algorithm when you are ready with `inlinks.json`, `outlinks.json`, `docno_list.json`, `root_set.json` and `base_set.json` and put them under the `info/` directory.
 
-The result will be under `result` directory, where `authority.json` contains authority pages and `hub.json` contains hub pages.
+The result will be under `result/` directory, where `authority.json` contains authority pages and `hub.json` contains hub pages.
 
 ## More on HITS algorithm
 
