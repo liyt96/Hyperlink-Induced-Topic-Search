@@ -18,13 +18,21 @@ The web graph I crawled is [here](https://drive.google.com/file/d/14A8-z8lJxU-Vm
 
 To compute HITS, we also need a Root set `root_set.json` and a Base set `base_set.json`.
 
-You may modify `hits_get_root_base.py` and `config.yaml` to compute Root set and Base set by `python hits_get_root_base.py` if you use [Elasticsearch](https://www.elastic.co/products/elasticsearch).
+You may modify `hits_get_root_base.py` and `config.yaml` to compute Root set and Base set by 
+```
+$ python hits_get_root_base.py
+```
+if you use [Elasticsearch](https://www.elastic.co/products/elasticsearch).
 
 The Root set and Base set I get form my web graph is [here](https://drive.google.com/file/d/1jpB7T08sl8z-PqRK4Pjyx-tUKlZEGqwx/view?usp=sharing).
 
 ### 3. Run HITS
 
-Run `python hits.py` to run the algorithm when you are ready with `inlinks.json`, `outlinks.json`, `docno_list.json`, `root_set.json` and `base_set.json` and put them under the `info/` directory.
+Run
+```
+$ python hits.py
+```
+to run the algorithm when you are ready with `inlinks.json`, `outlinks.json`, `docno_list.json`, `root_set.json` and `base_set.json` and put them under the `info/` directory.
 
 The result will be under `result/` directory, where `authority.json` contains authority pages and `hub.json` contains hub pages.
 
