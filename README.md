@@ -1,7 +1,7 @@
 # Hyperlink-Induced Topic Search
 An implementation of Hyperlink-Induced-Topic-Search (HITS) algorithm with Python 3. 
 
-HITS ranks web pages, like Page Rank.
+HITS ranks web pages according to users' query, just like Page Rank.
 
 ## Usage
 
