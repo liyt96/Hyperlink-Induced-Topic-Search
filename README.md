@@ -30,5 +30,5 @@ The result will be under `result` directory, where `authority.json` contains aut
 
 ## More on HITS algorithm
 
-1. [Hubs, Authorities, and Communities, Kleinberg, Jon (1999)](http://www.cs.brown.edu/memex/ACM_HypertextTestbed/papers/10.html)
-2. [HITS algorithm - Wikipedia](https://en.wikipedia.org/wiki/HITS_algorithm)
+1. [Hubs, Authorities, and Communities](http://www.cs.brown.edu/memex/ACM_HypertextTestbed/papers/10.html), Kleinberg, Jon (1999).
+2. [HITS algorithm - Wikipedia](https://en.wikipedia.org/wiki/HITS_algorithm).
